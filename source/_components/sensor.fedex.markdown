@@ -46,5 +46,5 @@ Configuration options for the FedEx Sensor:
     </pre>
 
 <p class='note warning'>
-The FedEx sensor logs into the FedEx Delivery Manager website to scrape package data. It does not use an API. Use at your own risk.
+The FedEx sensor logs into the FedEx Delivery Manager website to scrape package data. It does not use an API. Use at your own risk. Similar to the [USPS](https://www.home-assistant.io/components/usps/) component, it requires a headless web browser to work. If you are on hass.io, it is currently not possible to use this component.
 </p>
